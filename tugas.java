@@ -6,30 +6,30 @@ public class tugas {
 
         System.out.println();
 
-        String luas;
-        String tinggi;
-        String alas;
-        String keliling;
-        String nilaiA;
-        String nilaiB;
-        String nilaiC;
+        double luas;
+        double tinggi;
+        double alas;
+        double keliling;
+        double sisi;
+        
         
         
         System.out.print("masukkan luas : ");
-        luas = newScanner.nextLine();
+        luas = newScanner.nextDouble();
         System.out.print("masukkan tinggi : ");
-        tinggi = newScanner.nextLine();
+        tinggi = newScanner.nextDouble();
         System.out.print("masukkan alas : ");
-        alas = newScanner.nextLine();
-        System.out.print("masukkan nilai A : ");
-        alas = newScanner.nextLine();
-        System.out.print("masukkan nilai B : ");
-        alas = newScanner.nextLine();
-        System.out.print("masukkan nilai C : ");
-        alas = newScanner.nextLine();
+        alas = newScanner.nextDouble();
+        System.out.print("masukkan sisi : ");
+        sisi = newScanner.nextDouble();
+        System.out.print("masukkan sisi : ");
+        sisi = newScanner.nextDouble();
+        System.out.print("masukkan sisi : ");
+        sisi = newScanner.nextDouble();
 
-        System.out.println(luas = "1/2" * alas * tinggi );
-        System.out.println(keliling =  nilaiA + nilaiB + nilaiC);
+        
+        System.out.println(luas = 1/2 * alas * tinggi );
+        System.out.println(keliling =  sisi + sisi + sisi);
 
         System.out.println("Luas = " + luas);
         System.out.println("keliling = " + keliling);
